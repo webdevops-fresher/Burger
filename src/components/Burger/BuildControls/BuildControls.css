@@ -1,0 +1,24 @@
+.BuildControls{
+    width:70%;
+    height:350px;
+    margin-bottom:100px;
+    background:#cf8f2e;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    margin:auto;
+    padding:20px 0;
+}
+
+
+
+.Ordernow{
+    border-radius:20px;
+    margin-top:20px;
+    text-align:center;
+}
+
+
+.Ordernow:focus{
+    border-radius:0;
+}

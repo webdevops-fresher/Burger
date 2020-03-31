@@ -1,0 +1,25 @@
+.BuildControl{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:5px 0;
+}
+
+.label{
+    font-weight: bold;
+    color:black;
+}
+
+
+.button{
+    display:block;
+    font:inherit;
+    padding:5px;
+    margin:0 5px;
+    width:80px;
+    border-radius:20px;
+}
+
+.button:focus{
+    border-radius:0;
+}

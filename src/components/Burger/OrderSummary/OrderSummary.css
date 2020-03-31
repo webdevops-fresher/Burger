@@ -1,0 +1,32 @@
+.INGREDIENT_LIST{
+    list-style-type: none;
+}
+
+
+.SUMMARY{
+    text-align:center;
+    padding:20px 10px;
+}
+
+
+.CHECKOUT_BUTTON{
+    border-radius:20px;
+    background:#4cfa50;
+    border-color: #4cfa50;
+    color:black;
+}
+
+.CHECKOUT_BUTTON:focus{
+    border-radius:0;
+}
+
+.CANCEL_BUTTON{
+    border-radius:20px;
+    background:#4cfa50;
+    border-color: #4cfa50;
+    color:black;
+}
+
+.CANCEL_BUTTON:focus{
+    border-radius:0;
+}

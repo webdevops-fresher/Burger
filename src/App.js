@@ -12,7 +12,6 @@ class App extends Component {
         <Layout>
           <BurgerBuilder />
         </Layout>
-        <h1>Burger Project Has Been Completed.</h1>
       </div>
     );
   }

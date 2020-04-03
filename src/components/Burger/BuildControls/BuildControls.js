@@ -31,11 +31,7 @@ const buildControls=(props)=>{
                 maximum={props.maximum}
                 />
             })}
-            <button 
-            className={classes.Ordernow} 
-            disabled={props.maximum<=0}
-            onClick={props.orderNow}
-            >Order Now</button>
+            <button className={classes.Ordernow} disabled={props.maximum<=0} onClick={props.orderNow}>Order Now</button>
         </div>
     );
 }
